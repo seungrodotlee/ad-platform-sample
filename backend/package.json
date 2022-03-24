@@ -1,0 +1,17 @@
+{
+  "name": "ad-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --watch ./ ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.2.0",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1"
+  }
+}
